@@ -1,15 +1,15 @@
 export default {
   siteMetadata: {
-    title: "Next.js Starter Blog",
+    title: "Fran's Blog",
     author: {
-      name: "Jose Felix",
-      summary: "who works building clean user interfaces with React.",
+      name: "Francisco Delgado",
+      summary: "who works building robust systems",
     },
-    description: "A blog created with Next.js and Tailwind.css",
-    siteUrl: "https://nextjs-starter-blog-demo.netlify.app/",
+    description: "Fran's personal blog",
+    siteUrl: "localhost",
     language: "en-US",
     social: {
-      twitter: "Jose_R_Felix",
+      twitter: "frandelgado96",
     },
   },
 };
