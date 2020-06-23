@@ -47,6 +47,5 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 ## ☁ Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jfelix61/nextjs-starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/frandelgado/blog)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/Jfelix61/nextjs-starter-blog)
