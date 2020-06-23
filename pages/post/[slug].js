@@ -26,18 +26,21 @@ export default function Post({ post, frontmatter }) {
         title={frontmatter.title}
         description={frontmatter.description || post.excerpt}
       />
-
-      <article>
-        <header>
-          <h1 className="my-0">{frontmatter.title}</h1>
-          <p className="text-xs">{frontmatter.date}</p>
-        </header>
-        <ReactMarkdown
-          escapeHtml={false}
-          source={post.content}
-          renderers={{ code: CodeBlock, image: MarkdownImage }}
-        />
-      </article>
+      <section class="w-full flex flex-col items-center px-3">
+        <article class="w-full lg:w-2/3 flex flex-col shadow my-4">
+          <div class="bg-white flex flex-col justify-start p-6">
+            <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">{frontmatter.title}</a>
+            <p href="#" class="text-sm pb-8">
+              By <a href="#" class="font-semibold hover:text-gray-800">{frontmatter.author}</a>, Published on {frontmatter.date}
+            </p>
+            <ReactMarkdown
+              escapeHtml={false}
+              source={post.content}
+              renderers={{ code: CodeBlock, image: MarkdownImage }}
+            />
+          </div>
+        </article>
+      </section>
     </Layout>
   );
 }
